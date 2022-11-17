@@ -27,6 +27,7 @@ python run.py
 |Filename Flag|Meaning|
 |-|-|
 |A|Uses an `ArrayList`|
+|N|Uses an array|
 |L|Uses a `LinkedList`|
 |I|Uses an indexed for-loop (`for (int i ...)`)|
 |E|Uses a for-each loop (`for (Object o : list)`)|
@@ -34,6 +35,9 @@ python run.py
 |B|Uses bitwise or|
 |F|Uses `break` with an if condition inside the loop|
 |R|Uses return condition inside for-loop (`for (...; i < size && !found)`)|
+|S|list `forEach()` method|
+|P|Parallel stream|
+|M|Stream AnyMatch|
 
 -----
 

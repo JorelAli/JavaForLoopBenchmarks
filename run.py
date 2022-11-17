@@ -29,6 +29,20 @@ tests = [
     'Test_AICBR',
     'Test_AICF',
     'Test_AICR',
+    'Test_AICR_one_liner',
+    'Test_NE',
+    'Test_NEB',
+    'Test_NEBF',
+    'Test_NEF',
+    'Test_NI',
+    'Test_NIB',
+    'Test_NIC',
+    'Test_NICB',
+    'Test_NICBF',
+    'Test_NICBR',
+    'Test_NICF',
+    'Test_NICR',
+    'Test_NICR_one_liner',
     'Test_LE',
     'Test_LEB',
     'Test_LEBF',
@@ -41,16 +55,21 @@ tests = [
     'Test_LICBF',
     'Test_LICBR',
     'Test_LICF',
-    'Test_one_liner',
     'Test_hash',
-    'Test_linkedhash'
+    'Test_linkedhash',
+    'Test_AS',
+    'Test_ASB',
+    'Test_AM',
+    'Test_AM_lambda',
+    'Test_AMP',
+    'Test_AMP_lambda',
 ]
 
-iterations = 10
+iterations = 5
 
 results = []
 
-actualFlags = ['A', 'L', 'I', 'E', 'C', 'B', 'F', 'R']
+actualFlags = ['A', 'N', 'L', 'I', 'E', 'C', 'B', 'F', 'R', 'S', 'M', 'P']
 
 
 # Requires --add-opens runtime flag:
